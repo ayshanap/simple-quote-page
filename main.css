@@ -26,5 +26,15 @@ body{
 }
 
 .flags{
+  margin: auto 0;
   vertical-align: bottom;
+  position: absolute;
+  bottom:1vh;
+  width: 100vw;
+  text-align: center;
+  margin: auto 0;
+}
+
+.flag-icon{
+  padding:0.3em;
 }

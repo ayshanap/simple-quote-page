@@ -1,14 +1,20 @@
 body{
   background-image:url(https://raw.githubusercontent.com/CodeBerrySchool/simple-quote-page/master/assets/freedom.jpg);
-  background-size:cover;
+  background-size:auto 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.main{
+  height: 100vh;
 }
 
 .motto{
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   text-transform: uppercase;
   text-align: center;
   font-family:'Open Sans', sans-serif;
-  padding:6rem;
+  padding:1rem;
   padding-bottom: 2rem;
   line-height:2.2rem;
 }
@@ -17,4 +23,8 @@ body{
   text-align: center;
   font-style: italic;
   font-weight: bold;
+}
+
+.flags{
+  vertical-align: bottom;
 }

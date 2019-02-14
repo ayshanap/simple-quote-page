@@ -1,0 +1,20 @@
+body{
+  background-image:url(https://raw.githubusercontent.com/CodeBerrySchool/simple-quote-page/master/assets/freedom.jpg);
+  background-size:cover;
+}
+
+.motto{
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-family:'Open Sans', sans-serif;
+  padding:6rem;
+  padding-bottom: 2rem;
+  line-height:2.2rem;
+}
+
+.rousseau{
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+}
